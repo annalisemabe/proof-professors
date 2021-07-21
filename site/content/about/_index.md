@@ -12,7 +12,7 @@ about:
       University of South Florida with an M.F.A. in Nonfiction Writing. Annalise
       is ultimately passionate about helping people succeed in their academic
       and professional careers. "
-    imageUrl: /img/annalise.jpg
+    imageUrl: img/akphotoforannalise1.jpg
   - heading: Ryan Cheng
     text: "Ryan Cheng is an instructor at the University of South Florida where he
       has taught English Composition, and Professional and Technical Writing

@@ -21,5 +21,5 @@ about:
       undergraduate and graduate students and members of the faculty and staff.
       Ryan graduated with a B.A. in English from the University of San Francisco
       and an M.F.A. in Creative Writing from the University of South Florida. "
-    imageUrl: /img/ryan.jpg
+    imageUrl: img/akphotoforannalise39.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: About
-image: /img/about-jumbotron.jpg
+image: img/untitled-design.png
 about:
   - heading: Annalise Mabe
     text: "Annalise Mabe is a writing consultant and educator with over seven years

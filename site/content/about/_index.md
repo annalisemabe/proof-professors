@@ -1,6 +1,6 @@
 ---
 title: About
-image: img/untitled-design-2.png
+image: img/banner-image.png
 about:
   - heading: Annalise Mabe
     text: "Annalise Mabe is a writing consultant and educator with over seven years

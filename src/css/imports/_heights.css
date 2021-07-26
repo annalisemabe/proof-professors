@@ -28,6 +28,8 @@
 .h-auto {     height: auto; }
 .h-inherit {  height: inherit; }
 
+.nav-h { height: 4.2rem }
+
 @media (--breakpoint-not-small) {
   .h1-ns {  height: var(--spacing-medium); }
   .h2-ns {  height: 2rem; }

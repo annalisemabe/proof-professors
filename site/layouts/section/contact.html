@@ -1,20 +1,26 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
+<div class="contact-form ph3 bg-off-white">
 	<div class="center mw6 pv3">
 
 		<h1 class="f4 b lh-title mb2 primary">{{ .Params.title }}</h1>
 
 		{{ .Content }}
 
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
-		</div>
+		<form name="contact" method="POST" data-netlify="true">
+			<p>
+			  <label><span>Your Name: </span><input type="text" name="name" /></label>   
+			</p>
+			<p>
+			  <label><span>Your Email: </span><input type="email" name="email" /></label>
+			</p>
+			<p>
+			  <label><span>Message: </span><textarea name="message"></textarea></label>
+			</p>
+			<p>
+			  <button type="submit">Send</button>
+			</p>
+    </form>
 
 	</div>
 </div>

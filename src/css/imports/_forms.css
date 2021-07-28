@@ -57,20 +57,23 @@ input, textarea {
    line-height: normal;
 }
 
-label
-{
-  font-size: .875rem;
-  font-weight: 800;
-  color: var(--white);
-  background-color: var(--primary);
-  border-radius: var(--border-radius);
-  padding: var(--spacing-extra-small) var(--spacing-small);
-  position: absolute;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  opacity: 0;
-  line-height: 1;
-  transition: var(--hover-transition);
-  z-index: 2;
+.contact-form label span {
+  display: block;
+  width: 100%;
+}
+
+.contact-form label input,
+.contact-form label textarea {
+  width: 100%;
+}
+
+.contact-form label textarea {
+  min-height: 200px;
+}
+
+.contact-form button[type="submit"] {
+  padding: 10px;
+  border: 1px solid var(--primary);
+  background: white;
+  border-radius: 3px;
 }

@@ -34,12 +34,32 @@ observer.observe(target)
 
 
 // Canvas animation
+let circles = [];
 const random = (min, max) => Math.floor(Math.random() * max) + min
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext('2d');
-const circles = [];
 const h = canvas.parentElement.offsetHeight
-const w = canvas.parentElement.offsetWidth - 550
+const w = canvas.parentElement.offsetWidth
+
+let timeout = false;
+const delay = 250;
+
+// window.resize callback function
+function getDimensions() {
+  const h = canvas.parentElement.offsetHeight
+  const w = canvas.parentElement.offsetWidth
+
+  canvas.height = h
+  canvas.width = w
+}
+
+// window.resize event listener
+window.addEventListener('resize', function() {
+  // clear the timeout
+  clearTimeout(timeout);
+  // start timing for event "completion"
+  timeout = setTimeout(getDimensions, delay);
+});
 
 canvas.height = h
 canvas.width = w
@@ -80,19 +100,19 @@ Circle.prototype.update = function() {
   ctx.fill()
 };
 
-function drawCircles() {
+function drawCircles(h, w) {
   for (var i = 0; i < 15; i++) {
-    const randomX = random(0, w - 100)
+    const randomX = random(0, w < 980 ? w : w - 500)
     const randomY = random(0, h)
-    const speed = 0.2 + Math.random()
-    const size = 5 + Math.random() * 75
+    const speed = 0.1 + Math.random()
+    const size = 5 + Math.random() * 90
     const circle = new Circle(100, speed, size, randomX, randomY)
 
     circles.push(circle)
   }
   draw()
 }
-drawCircles()
+drawCircles(h, w)
 
 function draw() {
   ctx.clearRect(0, 0, w, h)

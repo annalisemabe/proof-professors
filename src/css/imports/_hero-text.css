@@ -1,0 +1,29 @@
+@media (max-width: 980px) {
+  .hero-image {
+    background-color: #efefef;
+    background-image: none !important;
+  }
+}
+
+.hero-text {
+  text-shadow: 2px 2px 0 #efefef;
+}
+
+.animated-text {
+  opacity: 0;
+  display: inline-block !important;
+  transform: translateY(50px);
+  transition: opacity 1.3s ease, transform .8s ease;
+}
+  
+.animated-text.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+

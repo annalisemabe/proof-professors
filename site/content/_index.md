@@ -1,7 +1,7 @@
 ---
 title: We're here to help you achieve your goals
 subtitle: Explore to see all our offerings!
-image: img/banner6.png
+image: img/hero-img.jpg
 blurb:
   heading: Why Proof Professors?
   text: Proof Professors is the duo of Annalise Mabe and Ryan Cheng who have over

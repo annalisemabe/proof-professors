@@ -1,0 +1,38 @@
+/* .slideshow {
+  position: relative;
+  width: 32rem;
+  margin: 0 auto;
+}
+
+.slideshow > * {
+  display: none;
+}
+
+.slideshow-child:first-child {
+  display: block;
+}
+
+.slideshow-child {
+  position: absolute;
+  top: 20px;
+  left: 0;
+} */
+
+.glider-contain {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  max-width: 40rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .glider-prev,
+  .glider-next {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .dots {
+    display: none;
+  }
+}

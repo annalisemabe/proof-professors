@@ -7,7 +7,7 @@ import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!../c
 import HomePreview from "./cms-preview-templates/home";
 import ProductsPreview from "./cms-preview-templates/services";
 import PersonalStatements from "./cms-preview-templates/personal-statements";
-import OurProcess from "./cms-preview-templates/our-process";
+import Services from "./cms-preview-templates/services";
 import ProfessionalWriting from "./cms-preview-templates/professional-writing";
 import TestimonialsPreview from "./cms-preview-templates/testimonials";
 import AboutPreview from "./cms-preview-templates/about";
@@ -16,7 +16,7 @@ import ContactPreview from "./cms-preview-templates/contact";
 CMS.registerPreviewStyle(styles, { raw: true });
 CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);
-CMS.registerPreviewTemplate("our-process", OurProcess);
+CMS.registerPreviewTemplate("services", Services);
 CMS.registerPreviewTemplate("personal-statements", PersonalStatements);
 CMS.registerPreviewTemplate("professional-writing", ProfessionalWriting);
 CMS.registerPreviewTemplate("testimonials", TestimonialsPreview);

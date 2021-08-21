@@ -1,29 +1,73 @@
 ---
-title: "Our Process"
-image: /img/process-jumbotron.jpg
+title: Services
+type: services
+image: /img/services-jumbotron.jpg
+heading: What we offer
+intro:
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur.
+  blurbs:
+    - image: /img/illustrations-desk.svg
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+    - image: /img/illustrations-woman.svg
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+    - image: /img/illustrations-school.svg
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+    - image: /img/illustrations-upload.svg
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+  heading: What we offer
+full_image: /img/services-full-width.jpg
 pricing:
-  description: >-
-    We make it easy to orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi elit, sed do eiusmod tempor.
+  description: x
   plans:
-    - description: Perfect for the dolor sit amet, consectetur.
+    - description: x
       items:
-        - Some item
-        - Another thing you get
-        - One final thing you get
-      plan: Small
-      price: '50'
-    - description: 'Great for dolor sit amet, consectetur adipiscing elit'
+        - Download of Job Document Best Practices
+        - Individual Job Tracker
+        - Simple Resume Template
+        - Simple Cover Letter Template
+      plan: Basic Guide
+      price: "49"
+    - description: x
       items:
-        - Some item
-        - Another thing you get
-        - One final thing you get
-      plan: Big
-      price: '80'
-    - description: This one's for dolor sit amet, consectetur adipiscing elit
+        - 60 min. Resume and Cover Letter Consultation with Feedback
+        - Download of Job Document Best Practices
+        - Individual Job Tracker
+        - Simple Resume Template
+        - Simple Cover Letter Template
+      plan: Starter Package
+      price: "295"
+    - description: x
       items:
-        - Some item
-        - Another thing you get
-        - One final thing you get
-      plan: Custom
-      price: '?'
+        - 60 min. Resume and Cover Letter Consultation with Feedback
+        - Revision and Second 60 min. Consultation with Feedback
+        - Interview Preparation
+        - LinkedIn Profile Review
+        - Download of Job Document Best Practices
+        - Individual Job Tracker
+        - Simple Resume Template
+        - Simple Cover Letter Template
+      plan: Premium Package
+      price: "549"
+  heading: x
 ---

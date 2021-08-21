@@ -2,10 +2,15 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
-<div class="pb4 pt4">
+<div class="glider-contain">
+  <div class="glider">
   {{ range .Params.testimonials }}
     {{ partial "blockquote" . }}
   {{ end }}
+  </div>
+  <span role="button" aria-label="Previous" class="glider-prev">&#8592;</span>
+  <span role="button" aria-label="Next" class="glider-next">&#8594;</span>
+  <span role="tablist" class="dots"></span>
 </div>
 
 {{ end }}

@@ -48,9 +48,9 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - file: "site/content/our-process/_index.md"
-        label: "Our Process Page"
-        name: "our-process"
+      - file: "site/content/services/_index.md"
+        label: "Services"
+        name: "services"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}

@@ -23,4 +23,8 @@
   {{ if .IsHome }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ end }}
+  {{ if eq .RelPermalink "/testimonials/" }}
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css" rel="stylesheet">
+  {{ end }}
 </head>

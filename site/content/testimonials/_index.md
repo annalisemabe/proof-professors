@@ -2,6 +2,17 @@
 title: Testimonials
 image: /img/testimonials-jumbotron.jpg
 testimonials:
+  - quote: Ryan and Annalise were fantastic in helping me prepare for my post-grad
+      job search. In preparation for interviews, they shared their 'best
+      practices' and highlighted some of the questions one can expect. They were
+      also encouraging and provided insight to how I could translate my skills
+      and expertise in new settings. I think that's the most important part of
+      the job search—advocating for yourself in a way that's genuine but also
+      shows how your previous experiences can be used in a new position. With
+      Ryan and Annalise's help, I was able to land a dream job that not only
+      allows me to work in something I'm passionate about but also provides the
+      perfect work-life balance.
+    author: Karla A.
   - author: Lorraine M.
     quote: Annalise and Ryan distill so many years of communications knowledge into
       accessible practices that have absolutely transformed my professional
@@ -34,17 +45,6 @@ testimonials:
       Annalise’s understanding of and passion for writing is truly life changing
       and I highly recommend her for any and all writing needs!
     author: "Michaelene G. "
-  - quote: Ryan and Annalise were fantastic in helping me prepare for my post-grad
-      job search. In preparation for interviews, they shared their 'best
-      practices' and highlighted some of the questions one can expect. They were
-      also encouraging and provided insight to how I could translate my skills
-      and expertise in new settings. I think that's the most important part of
-      the job search—advocating for yourself in a way that's genuine but also
-      shows how your previous experiences can be used in a new position. With
-      Ryan and Annalise's help, I was able to land a dream job that not only
-      allows me to work in something I'm passionate about but also provides the
-      perfect work-life balance.
-    author: Karla A.
   - quote: Annalise has hands down exceeded my writing expectations. She has helped
       me with numerous essays, including the personal statement that got me
       accepted into Physician Assistant school. Working with her is always a

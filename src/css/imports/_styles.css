@@ -11,7 +11,8 @@
   }
   & ul a:hover,
   & ul .fake-link:hover,
-  & ul a:focus {
+  & ul a:focus,
+  & ul a.active {
     box-shadow: inset 0 -4px 0 var(--primary);
   }
 }

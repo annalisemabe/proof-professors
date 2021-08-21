@@ -6,6 +6,19 @@ const menuEl = document.getElementById('menu')
 
 menuBtnEl.onclick = () => menuEl.classList.toggle('nav-mobile')
 
+// Nav active classes
+const navLinkEls = document.querySelectorAll('#menu a')
+const origin = window.location.origin
+const path = window.location.pathname;
+
+[...navLinkEls].forEach(node => {
+  console.log({ origin, parsed: node.href.replace(origin, '') + '/', path  })
+  if (node.href.replace(origin, '') + '/' === path) {
+    node.classList.add('active')
+  }
+})
+
+
 // Hero image animations
 const target = document.querySelector('.intersection-obv');
 const observer = new IntersectionObserver(entries => {
@@ -127,35 +140,19 @@ if (canvas) {
   }
 }
 
-// // Handle slideshows (currently only on testimonials page)
-// const slideshowEl = document.querySelector('.slideshow')
+// testimonials slideshow
+const sliderEl = document.querySelector(".glider")
 
-// if (slideshowEl) {
-//   let maxHeight = 0;
-
-//   [...slideshowEl.children].forEach(node => {
-//     node.classList.add('slideshow-child')
-
-//     const w = node.offsetWidth
-//     const h = node.offsetHeight
-
-//     if (h > maxHeight) {
-//       maxHeight = h
-//     }
-//   })
-
-//   slideshowEl.style.height = `${maxHeight + 40}px`
-// }
-
-
-new Glider(document.querySelector(".glider"), {
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  draggable: true,
-  rewind: true,
-  dots: ".dots",
-  arrows: {
-    prev: ".glider-prev",
-    next: ".glider-next"
-  }
-});
+if (sliderEl) {
+  new Glider(sliderEl, {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    draggable: true,
+    rewind: true,
+    dots: ".dots",
+    arrows: {
+      prev: ".glider-prev",
+      next: ".glider-next"
+    }
+  });
+}

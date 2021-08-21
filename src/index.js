@@ -12,12 +12,12 @@ const origin = window.location.origin
 const path = window.location.pathname;
 
 [...navLinkEls].forEach(node => {
-  console.log({ origin, parsed: node.href.replace(origin, '') + '/', path  })
-  if (node.href.replace(origin, '') + '/' === path) {
+  const linkPath = node.href.replace(origin, '') + '/'
+
+  if (linkPath === path || linkPath === '//' && path === '/') {
     node.classList.add('active')
   }
 })
-
 
 // Hero image animations
 const target = document.querySelector('.intersection-obv');

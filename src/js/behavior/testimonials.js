@@ -1,16 +1,12 @@
 // Testimonials slideshow
-const sliderEl = document.querySelector(".glider")
+tns({
+  container: '.slideshow',
+  mouseDrag: true,
+  slideBy: 'page',
+  center: true,
+  autoplay: false,
+  nav: false,
+  prevButton: '.slider-prev',
+  nextButton: '.slider-next'
+});
 
-if (sliderEl) {
-  new Glider(sliderEl, {
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    draggable: true,
-    rewind: true,
-    dots: ".dots",
-    arrows: {
-      prev: ".glider-prev",
-      next: ".glider-next"
-    }
-  });
-}

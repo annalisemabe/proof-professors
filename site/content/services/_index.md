@@ -2,7 +2,7 @@
 title: Services
 type: services
 image: /img/services-jumbotron.jpg
-pricing:
+professional_services:
   plans:
     - items:
         - Download of Job Document Best Practices

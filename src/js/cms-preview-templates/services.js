@@ -22,7 +22,7 @@ export default class PostPreview extends React.Component {
           <div className="mw7 center">
 
             <div className="flex-ns mhn2-ns mw7" data-services="professional">
-              {(entry.getIn(['data', 'pricing', 'plans']) || []).map((plan, index) => <div className="w-33-ns ph2" key={index}>
+              {(entry.getIn(['data', 'professional_services', 'plans']) || []).map((plan, index) => <div className="w-33-ns ph2 mb5" key={index}>
                 <div className="ph2">
 
                   <h3 className="b f5 grey-3 tc lh-title mb3">{plan.get('plan')}</h3>
@@ -31,7 +31,7 @@ export default class PostPreview extends React.Component {
                     <span className="f4">$</span>{plan.get('price')}
                   </p>
 
-  -              	<p className="b">{plan.get('description')}</p>
+                	<p className="b">{plan.get('description')}</p>
 
                   <ul>
                     {(plan.get('items') || []).map((item, index) => <li key={index}>
@@ -50,7 +50,7 @@ export default class PostPreview extends React.Component {
           <div className="mw7 center">
 
             <div className="flex-ns mhn2-ns mw7" data-services="academic">
-              {(entry.getIn(['data', 'academic_services', 'plans']) || []).map((plan, index) => <div className="w-33-ns ph2" key={index}>
+              {(entry.getIn(['data', 'academic_services', 'plans']) || []).map((plan, index) => <div className="w-33-ns ph2 mb5" key={index}>
                 <div className="ph2">
 
                   <h3 className="b f5 grey-3 tc lh-title mb3">{plan.get('plan')}</h3>
@@ -59,7 +59,7 @@ export default class PostPreview extends React.Component {
                     <span className="f4">$</span>{plan.get('price')}
                   </p>
 
-  -              	<p className="b">{plan.get('description')}</p>
+                	<p className="b">{plan.get('description')}</p>
 
                   <ul>
                     {(plan.get('items') || []).map((item, index) => <li key={index}>

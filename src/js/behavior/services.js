@@ -33,7 +33,8 @@ const fadeInDetails = (category) => {
     const descriptions = section.querySelectorAll("ul");
 
     if (section.dataset.services === category) {
-      section.style.display = "flex";
+      section.style.position = "relative";
+      section.style.opacity = 1;
       [...descriptions].forEach((ul) => {
         const lis = ul.querySelectorAll("li");
         [...lis].forEach((li, i) => {
@@ -41,7 +42,8 @@ const fadeInDetails = (category) => {
         });
       });
     } else {
-      section.style.display = "none";
+      section.style.position = "absolute";
+      section.style.opacity = 0;
       [...descriptions].forEach((ul) => {
         const lis = ul.querySelectorAll("li");
         [...lis].forEach((li) => li.classList.remove("fadeIn"));

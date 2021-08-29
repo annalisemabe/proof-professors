@@ -5,9 +5,9 @@
 		<!-- <h2 class="f2 b lh-title mb3">{{.content.heading}}</h2>
 		<p class="mw-100">{{.content.description}}</p> -->
 
-		<div class="flex-ns mhn2-ns mw7" data-services="{{.type}}">
+		<div class="flex-wrap-m flex-ns mhn2-ns mw7" data-services="{{.type}}">
 			{{ range .content.plans }}
-			<div class="w-33-ns ph2">{{ partial "table-column" . }}</div>
+			<div class="w-33-ns ph2 mb5">{{ partial "table-column" . }}</div>
 			{{ end }}
 		</div>
 

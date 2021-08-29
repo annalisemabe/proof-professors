@@ -27,28 +27,30 @@ const path = window.location.pathname;
 })
 
 // Hero image animations
-const target = document.querySelector('.intersection-obv');
-const observer = new IntersectionObserver(entries => {
-  entries.map((entry) => {
-    if (entry.isIntersecting) {
-      if (entry.target && entry.target.childNodes) {
-        entry.target.childNodes.forEach((child, i) => {
-          if (child.classList && child.classList.contains('animated-text')) {
-            child.classList.add('visible')
-            child.style.transitionDelay = `${i*.08}s`
-          }
-        })
+const observeTarget = document.querySelector('.intersection-obv');
+if (observeTarget) {
+  const observer = new IntersectionObserver(entries => {
+    entries.map((entry) => {
+      if (entry.isIntersecting) {
+        if (entry.target && entry.target.childNodes) {
+          entry.target.childNodes.forEach((child, i) => {
+            if (child.classList && child.classList.contains('animated-text')) {
+              child.classList.add('visible')
+              child.style.transitionDelay = `${i*.08}s`
+            }
+          })
+        }
+      } else {
+        if (entry.target && entry.target.childNodes) {
+          entry.target.childNodes.forEach((child, i) => {
+            if (child.classList && child.classList.contains('animated-text')) {
+              child.classList.remove('visible')
+            }
+          })
+        }
       }
-    } else {
-      if (entry.target && entry.target.childNodes) {
-        entry.target.childNodes.forEach((child, i) => {
-          if (child.classList && child.classList.contains('animated-text')) {
-            child.classList.remove('visible')
-          }
-        })
-      }
-    }
-  })
-}, { threshold: .5 })
-
-observer.observe(target)
+    })
+  }, { threshold: .5 })
+  
+  observer.observe(observeTarget)
+}

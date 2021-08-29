@@ -9,6 +9,9 @@
   & a {
     transition: var(--hover-transition);
   }
+  & ul a.active {
+    transition: none;
+  }
   & ul a:hover,
   & ul .fake-link:hover,
   & ul a:focus,

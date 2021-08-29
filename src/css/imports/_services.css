@@ -1,0 +1,25 @@
+.controller {
+  text-align: center;
+  font-weight: bolder;
+  margin: 20px 20px 55px;
+  font-size: 40px;
+}
+
+.controller select {
+  border: none;
+  border-bottom: 1px solid var(--primary);
+  color: var(--primary);
+  outline: none;
+  font-size: 40px;
+}
+
+.service-list {
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateY(50px);
+}
+
+.service-list.fadeIn {
+  opacity: 1;
+  transform: translateX(0);
+}

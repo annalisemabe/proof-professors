@@ -3,8 +3,19 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
-{{ partial "4-up" .Params.intro }}
+<h1 class="controller">
+  I'm interested in
+  <select name="interest">
+    <option>academic</option>
+    <option>professional</option>
+  </select>
+  services
+</h1>
 
+{{ partial "table" (dict "content" .Params.pricing "type" "academic" )}}
+{{ partial "table" (dict "content" .Params.academic_services "type" "professional" )}}
+
+<!-- {{ partial "4-up" .Params.intro }}
 
 {{ with .Params.main }}
 <div class="mw7 center">
@@ -12,21 +23,19 @@
     <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
     <p>{{ .description }}</p>
   </div>
-</div>
+</div> -->
 
 <!-- Image grid -->
-{{ partial "image-grid" . }}
-{{ end }}
+<!-- {{ partial "image-grid" . }}
+{{ end }} -->
 
-<div class="pb4">
+<!-- <div class="pb4">
   {{ range .Params.testimonials }}
     {{ partial "blockquote" . }}
   {{ end }}
-</div>
+</div> -->
 
 <!-- Full-width image -->
-<img src="{{ .Params.full_image }}" alt="" class="db w-100">
-
-{{ partial "table" .Params.pricing }}
+<!-- <img src="{{ .Params.full_image }}" alt="" class="db w-100"> -->
 
 {{ end }}

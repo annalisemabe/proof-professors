@@ -5,7 +5,7 @@
 
 	<!-- Price -->
 	<p class="primary f1 b tc lh-title center">
-		<span class="f4">$</span>{{.price}}
+		<span class="f4">$</span><span data-price-animate="{{ .price }}">{{.price}}</span>
 	</p>
 
 	<!-- Description -->
@@ -15,7 +15,7 @@
 	<ul>
 		{{ $itemCount := len .items }}
 		{{ range $index, $item := .items }}
-		<li>
+		<li class="service-list">
 			<p class="{{ if ne (add 1 $index) $itemCount }}pb2 mb2 divider-grey{{ end }}">{{ $item }}</p>
 		</li>
 		{{ end }}

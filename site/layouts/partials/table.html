@@ -1,12 +1,12 @@
-<div class="bg-off-white pv4 ph3">
+<div class="bg-off-white mb3">
 
 	<div class="mw7 center">
 
-		<h2 class="f2 b lh-title mb3">{{.heading}}</h2>
-		<p class="mw-100">{{.description}}</p>
+		<!-- <h2 class="f2 b lh-title mb3">{{.content.heading}}</h2>
+		<p class="mw-100">{{.content.description}}</p> -->
 
-		<div class="flex-ns mhn2-ns mt5 mw7">
-			{{ range .plans }}
+		<div class="flex-ns mhn2-ns mw7" data-services="{{.type}}">
+			{{ range .content.plans }}
 			<div class="w-33-ns ph2">{{ partial "table-column" . }}</div>
 			{{ end }}
 		</div>

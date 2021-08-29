@@ -32,54 +32,6 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Text", name: "text", widget: "text"},
               {label: "Image", name: "image", widget: "image"},
             ]}
-      - file: "site/content/contact/_index.md"
-        label: "Contact Page"
-        name: "contact"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
-      - file: "site/content/services/_index.md"
-        label: "Services"
-        name: "services"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Intro, name: intro, widget: object, fields: [
-              {label: Heading, name: heading, widget: string},
-              {label: Description, name: description, widget: text},
-              {label: Blurbs, name: blurbs, widget: list, fields: [
-                {label: Image, name: image, widget: image},
-                {label: Text, name: text, widget: text}
-              ]}
-            ]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [
-              {label: Heading, name: heading, widget: string},
-              {label: Description, name: description, widget: string},
-              {label: Plans, name: plans, widget: list, fields: [
-                {label: Plan, name: plan, widget: string},
-                {label: Price, name: price, widget: string},
-                {label: Description, name: description, widget: string},
-                {label: Items, name: items, widget: list}
-              ]}
-            ]}
-      - file: "site/content/personal-statements/_index.md"
-        label: "Personal Statements Page"
-        name: "personal-statements"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/about/_index.md"
         label: "About"
         name: "about"
@@ -93,13 +45,29 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
-      - file: "site/content/professional-writing/_index.md"
-        label: "Professional Writing Page"
-        name: "professional-writing"
+      - file: "site/content/services/_index.md"
+        label: "Services"
+        name: "services"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Full_image, name: full_image, widget: image}
+          - {label: Pricing, name: pricing, widget: object, fields: [
+              {label: Plans, name: plans, widget: list, fields: [
+                {label: Plan, name: plan, widget: string},
+                {label: Price, name: price, widget: string},
+                {label: Description, name: description, widget: string},
+                {label: Items, name: items, widget: list}
+              ]}
+            ]}
+          - {label: "Academic Services", name: academic_services, widget: object, fields: [
+              {label: Plans, name: plans, widget: list, fields: [
+                {label: Plan, name: plan, widget: string},
+                {label: Price, name: price, widget: string},
+                {label: Description, name: description, widget: string},
+                {label: Items, name: items, widget: list}
+              ]}
+            ]}
       - file: "site/content/testimonials/_index.md"
         label: "Testimonials Page"
         name: "testimonials"
@@ -110,3 +78,9 @@ collections: # A list of collections the CMS should be able to edit
               {label: Quote, name: quote, widget: string},
               {label: Author, name: author, widget: string}
             ]}
+      - file: "site/content/contact/_index.md"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}

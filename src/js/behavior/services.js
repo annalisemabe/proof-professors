@@ -61,8 +61,8 @@ window.addEventListener("load", () => {
   const pricingSections = document.querySelectorAll("[data-services]");
 
   if (selectList && pricingSections) {
-    animateNumbers('academic');
-    fadeInDetails('academic');
+    animateNumbers('professional');
+    fadeInDetails('professional');
   
     selectList.addEventListener("change", (e) => {
       animateNumbers(e.target.value);

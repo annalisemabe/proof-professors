@@ -12,8 +12,8 @@ export default class PostPreview extends React.Component {
         <h1 class="controller">
           I'm interested in
           <select name="interest">
-            <option>academic</option>
             <option>professional</option>
+            <option>academic</option>
           </select>
           services
         </h1>

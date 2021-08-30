@@ -5,11 +5,13 @@
 .slideshow-controls {
   margin-top: 20px;
   width: 100%;
-  text-align: center;
   font-size: 40px;
+  justify-content: center;
+  display: flex;
 }
 
 .slideshow-controls > button {
+  align-items: center;
   font-size: 25px;
   color: var(--primary);
 }

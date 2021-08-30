@@ -28,7 +28,7 @@ export default class PostPreview extends React.Component {
                   <h3 className="b f5 grey-3 tc lh-title mb3">{plan.get('plan')}</h3>
 
                   <p className="primary f1 b tc lh-title center">
-                    <span className="f4">$</span>{plan.get('price')}
+                    <span className="f4 v-mid">$</span>{plan.get('price')}
                   </p>
 
                 	<p className="b">{plan.get('description')}</p>
@@ -56,7 +56,7 @@ export default class PostPreview extends React.Component {
                   <h3 className="b f5 grey-3 tc lh-title mb3">{plan.get('plan')}</h3>
 
                   <p className="primary f1 b tc lh-title center">
-                    <span className="f4">$</span>{plan.get('price')}
+                    <span className="f4 v-mid">$</span>{plan.get('price')}
                   </p>
 
                 	<p className="b">{plan.get('description')}</p>

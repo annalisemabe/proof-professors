@@ -6,7 +6,6 @@ import './js/behavior/testimonials'
 import './js/behavior/home'
 
 // General JS:
-
 // Mobile dropdown behavior
 const menuBtnEl = document.getElementById('menu-btn')
 const menuEl = document.getElementById('menu')

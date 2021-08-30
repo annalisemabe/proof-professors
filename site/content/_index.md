@@ -19,8 +19,8 @@ products:
     text: We provide one-on-one client consultations for resumes and cover letters,
       comprehensive interview preparation, and college admissions essays.
   - image: /img/illustrations-woman.svg
-    text: "We also offer at basic guides outlining best practices for job documents
-      as well as admissions essays or personal statements. "
+    text: "We also offer basic guides outlining best practices for job documents as
+      well as admissions essays or personal statements. "
 testimonials:
   heading: Testimonials
   text: Our values can be seen through what others are saying about their positive

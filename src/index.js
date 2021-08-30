@@ -3,6 +3,7 @@ import "./css/main.css";
 // page-specific JS
 import './js/behavior/services'
 import './js/behavior/testimonials'
+import './js/behavior/contact'
 import './js/behavior/home'
 
 // General JS:

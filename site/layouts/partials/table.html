@@ -6,8 +6,9 @@
 		<p class="mw-100">{{.content.description}}</p> -->
 
 		<div class="flex-wrap-m flex-ns mhn2-ns mw7" data-services="{{.type}}">
+			{{ $type := .type }}
 			{{ range .content.plans }}
-			<div class="w-33-ns ph2 mb5">{{ partial "table-column" . }}</div>
+			<div class="w-33-ns ph2 mb5">{{ partial "table-column" (dict "context" . "type" $type)}}</div>
 			{{ end }}
 		</div>
 

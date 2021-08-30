@@ -14,6 +14,7 @@ export default class PostPreview extends React.Component {
           <select name="interest">
             <option>professional</option>
             <option>academic</option>
+            <option>copywriting</option>
           </select>
           services
         </h1>
@@ -51,6 +52,34 @@ export default class PostPreview extends React.Component {
 
             <div className="flex-ns mhn2-ns mw7" data-services="academic">
               {(entry.getIn(['data', 'academic_services', 'plans']) || []).map((plan, index) => <div className="w-33-ns ph2 mb5" key={index}>
+                <div className="ph2">
+
+                  <h3 className="b f5 grey-3 tc lh-title mb3">{plan.get('plan')}</h3>
+
+                  <p className="primary f1 b tc lh-title center">
+                    <span className="f4 v-mid">$</span>{plan.get('price')}
+                  </p>
+
+                	<p className="b">{plan.get('description')}</p>
+
+                  <ul>
+                    {(plan.get('items') || []).map((item, index) => <li key={index}>
+                      <p className={index + 1 !== plan.get('items').size ? "pb2 mb2 divider-grey" : null}>{item}</p>
+                    </li>)}
+                  </ul>
+
+                </div>
+
+              </div>)}
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-off-white mb3">
+          <div className="mw7 center">
+
+            <div className="flex-ns mhn2-ns mw7" data-services="academic">
+              {(entry.getIn(['data', 'copywriting_services', 'plans']) || []).map((plan, index) => <div className="w-33-ns ph2 mb5" key={index}>
                 <div className="ph2">
 
                   <h3 className="b f5 grey-3 tc lh-title mb3">{plan.get('plan')}</h3>

@@ -11,7 +11,7 @@ professional_services:
         - Simple Resume Template
         - Simple Cover Letter Template
       plan: Basic Guide
-      price: "49"
+      price: "50"
       description: DIY
     - items:
         - 60 min. Resume and Cover Letter Consultation with Feedback
@@ -20,7 +20,7 @@ professional_services:
         - Simple Resume Template
         - Simple Cover Letter Template
       plan: Starter Package
-      price: "295"
+      price: "300"
       description: Getting Started
     - items:
         - 60 min. Resume and Cover Letter Consultation with Feedback
@@ -32,7 +32,7 @@ professional_services:
         - Simple Resume Template
         - Simple Cover Letter Template
       plan: Premium Package
-      price: "549"
+      price: "550"
       description: Premium Overhaul
 academic_services:
   plans:
@@ -41,7 +41,7 @@ academic_services:
         - Individual School Tracker
         - Simple Admissions Essay Template
       plan: Basic Guide
-      price: "49"
+      price: "50"
       description: DIY
     - items:
         - 60 min. Admissions Essay Consultation with Feedback
@@ -49,7 +49,7 @@ academic_services:
         - Individual School Tracker
         - Simple Admissions Essay Template
       plan: Starter Package
-      price: "295"
+      price: "300"
       description: Getting Started
     - items:
         - 60 min. Admissions Essay Consultation with Feedback
@@ -60,7 +60,7 @@ academic_services:
         - Individual School Tracker
         - Simple Admissions Essay Template
       plan: Premium Package
-      price: "549"
+      price: "550"
       description: Premium Overhaul
 copywriting_services:
   plans:

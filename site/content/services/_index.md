@@ -69,7 +69,7 @@ copywriting_services:
         - Blogging
         - Social Media Content
         - Website Needs
-      plan: "Copywriting "
-      price: " By Project or Per Hour"
+      plan: Copywriting
+      subtext: (price by project or per hour)
       description: "Contact for:"
 ---

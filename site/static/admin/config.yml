@@ -55,7 +55,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Professional Services", name: professional_services, widget: object, fields: [
               {label: Plans, name: plans, widget: list, fields: [
                 {label: Plan, name: plan, widget: string},
-                {label: Price, name: price, widget: string},
+                {label: Subtext, name: subtext, widget: string},
+                {label: Price, name: price, widget: number},
                 {label: Description, name: description, widget: string},
                 {label: Items, name: items, widget: list}
               ]}
@@ -63,7 +64,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Academic Services", name: academic_services, widget: object, fields: [
               {label: Plans, name: plans, widget: list, fields: [
                 {label: Plan, name: plan, widget: string},
-                {label: Price, name: price, widget: string},
+                {label: Subtext, name: subtext, widget: string},
+                {label: Price, name: price, widget: number},
                 {label: Description, name: description, widget: string},
                 {label: Items, name: items, widget: list}
               ]}
@@ -71,7 +73,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Copywriting Services", name: copywriting_services, widget: object, fields: [
               {label: Plans, name: plans, widget: list, fields: [
                 {label: Plan, name: plan, widget: string},
-                {label: Price, name: price, widget: string},
+                {label: Subtext, name: subtext, widget: string},
+                {label: Price, name: price, widget: number},
                 {label: Description, name: description, widget: string},
                 {label: Items, name: items, widget: list}
               ]}
@@ -89,6 +92,12 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "site/content/terms/_index.md"
+        label: "Terms and Conditions Page"
+        name: "terms"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}

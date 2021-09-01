@@ -9,6 +9,7 @@ import Services from "./cms-preview-templates/services";
 import TestimonialsPreview from "./cms-preview-templates/testimonials";
 import AboutPreview from "./cms-preview-templates/about";
 import ContactPreview from "./cms-preview-templates/contact";
+import TermsAndConditionsPreview from "./cms-preview-templates/terms";
 
 CMS.registerPreviewStyle(styles, { raw: true });
 CMS.registerPreviewTemplate("home", HomePreview);
@@ -16,4 +17,5 @@ CMS.registerPreviewTemplate("services", Services);
 CMS.registerPreviewTemplate("testimonials", TestimonialsPreview);
 CMS.registerPreviewTemplate("about", AboutPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
+CMS.registerPreviewTemplate("terms", TermsAndConditionsPreview);
 CMS.init();

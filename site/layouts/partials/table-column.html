@@ -4,12 +4,19 @@
 	<h3 class="b f5 grey-3 tc lh-title mb3">{{.context.plan}}</h3>
 
 	<!-- Price -->
-	<p class="primary f1 b tc lh-title center">
-		<span class="f4 v-mid">$</span><span data-price-animate="{{ .context.price }}"></span>
-	</p>
+	{{ if .context.price }}
+		<p class="primary f1 b tc lh-title center">
+			<span class="f4 v-mid">$</span><span data-price-animate="{{ .context.price }}"></span>
+		</p>
+	{{ end }}
+
+	{{ if .context.subtext }}
+		<p class="relative bottom-1 tc i f6 grey-3">{{ .context.subtext }}</p>
+	{{ end }}
 
 	<!-- Description -->
 	<p class="b">{{.context.description}}</p>
+
 
 	<!-- Features -->
 	<ul>

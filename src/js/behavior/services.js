@@ -11,6 +11,8 @@ const animateNumbers = category => {
         const endValue = +node.dataset.priceAnimate;
         const increase = Math.round(endValue / STEPS) || 1;
         let value = 0;
+        
+        if (Number.isNaN(endValue)) return node.textContent = node.dataset.priceAnimate
     
         const animateText = () => {
           if (value === endValue) return;
@@ -61,12 +63,12 @@ window.addEventListener("load", () => {
   const pricingSections = document.querySelectorAll("[data-services]");
 
   if (selectList && pricingSections) {
-    animateNumbers('professional');
-    fadeInDetails('professional');
+    fadeInDetails(selectList.value);
+    animateNumbers(selectList.value);
   
     selectList.addEventListener("change", (e) => {
-      animateNumbers(e.target.value);
       fadeInDetails(e.target.value);
+      animateNumbers(e.target.value);
     });
   }
 });

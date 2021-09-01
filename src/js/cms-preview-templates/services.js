@@ -31,6 +31,8 @@ export default class PostPreview extends React.Component {
                   <p className="primary f1 b tc lh-title center">
                     <span className="f4 v-mid">$</span>{plan.get('price')}
                   </p>
+                  
+                  <p class="relative bottom-1 tc i f6 grey-3">{plan.get('subtext')}</p>
 
                 	<p className="b">{plan.get('description')}</p>
 

@@ -71,5 +71,9 @@ We reserve the right to update or change our Privacy Policy at any time and you 
 
 If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.
 
+##### Your Consent To These Terms
+
+By accessing and using the Site, you consent to and agree to be bound by the foregoing Terms. If we decide to change these Terms, we will make an effort to post those changes on this web page so that you will always be able to understand the terms and conditions that apply to your use of the Site.
+
 **Contact Us**\
 If you have any questions about this Privacy Policy, please [](https://www.letseatgrandma.com/contact/)contact us.

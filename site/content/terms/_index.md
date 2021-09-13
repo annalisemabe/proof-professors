@@ -13,7 +13,7 @@ A job interview precedes a job offer. Your job documents are just the beginning 
 
 You and your writing consultant will create and collaborate together to create a tailored resume. Both you and your writing consultant will put forth effort to meet deadlines and produce effective job application documents. That said, it is important to reply to all emails within a 48-hour period. 
 
-**3.) You will be prepared for your consultation. I will make a good effort to show up to my phone consultation and will review my documents prior to the call.**
+**3.) You will be prepared for your consultation. You will make a good effort to show up to you phone consultation and will review your documents prior to the call.**
 
 Consultations are the foundation to your success. You will make an effort to not only show up on time for your consultation, but you will also be prepared and have reviewed your documents and any other material prior to the consultation. The more information you can provide regarding your experiences and the job being applied for, the better we can assist.
 
@@ -29,7 +29,7 @@ If you do not request revisions during the five-day window after receiving your 
 
 All sales are final. We value our consultants’ time and experience and want to make sure they are compensated for their hard work. 
 
-**6.) You are the one responsible for the outcome of my job search, including any receipt of interviews or job offers.** 
+**6.) You are the one responsible for the outcome of your job search, including any receipt of interviews or job offers.** 
 
 Your consultant will work with you to create the most effective and tailored job documents for your chosen position, but you are the one solely responsible for sending out your job documents, preparing for your job interview, and ultimately the outcome of your job search.
 
@@ -37,7 +37,7 @@ By proceeding with services, you agree to the statements above, and you are read
 
 ## **Privacy Policy**
 
-Proof Professors (“us”, “we”, or “our”) operates www.websitename.com (the “Site”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.
+Proof Professors (“us”, “we”, or “our”) operates www.proofprofessors.com (the “Site”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.
 
 We use your Personal Information only for providing and improving the Site and your job search materials. By using the Site, you agree to the collection and use of information in accordance with this policy.
 

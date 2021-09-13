@@ -10,6 +10,5 @@ if (page && page.toLowerCase() === 'contact') {
     
     return `Hi! I'm interested in learning more about the ${service} service's "${pkg}".`
   }
-
-  messageInput.value = template(service, pkg)
+  if (service) messageInput.value = template(service, pkg)
 }
